@@ -53,6 +53,24 @@
    				<artifactId>appengine-maven-plugin</artifactId>
    				<version>1.9.4</version>
 			</plugin>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <outputDirectory>src/main/resources</outputDirectory>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                        </manifest>
+                    </archive>
+                    <descriptors>
+                        <descriptor>src/main/webapp/assembly.xml</descriptor>
+                    </descriptors>
+                </configuration>
+    		</plugin>
 		</plugins>
+		
 	</build>
 </project>
