@@ -1,0 +1,88 @@
+body
+{
+  background-image:url('images/backgroundbubbles.jpg');
+  background-size:100% 100%;
+  margin: 0;
+  padding: 0;
+
+
+  /*para o background bubbles, as 4 linhas acima servem para fazer o background ficar do tamanho da tela*/
+
+  font-family:"Showcard Gothic";
+  color: black;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+
+textArea
+{
+  background-color:#000000;
+  color:#FF6600;
+  font=24px;
+}
+
+input
+{
+  background-color:#000000;
+  color:#FF6600;
+}
+
+select
+{
+  background-color:#000000;
+  color:#FF6600;
+}
+
+button
+{
+  background-color:#000000;
+  color:#FF6600;
+}
+
+#conteudoPagina
+{
+  padding-left:20%;
+}
+
+.tituloTopicoForum
+{
+  
+   font-family:"Showcard Gothic";
+   font-size: 24px;
+}
+
+.descricaoTopicoForum
+{
+  
+   font-family:"Showcard Gothic";
+   font-size: 16px;
+}
+
+.botaoResenha
+{
+   background-color:#000000;
+   color:#FF6600;
+   font-family:"Showcard Gothic";
+   font-size: 24px;
+}
+
+.botaoSubmit
+{
+   background-color:#000000;
+   color:#FF6600;
+}
+
+td
+{
+	text-align:center;
+	vertical-align:top;
+}
+
+h1
+{
+	text-align:center;
+}
+
+.cabecalhoRespostaForum
+{
+  color:CC0000; /*diferente para cada background*/
+}

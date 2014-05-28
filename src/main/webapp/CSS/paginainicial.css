@@ -1,0 +1,8 @@
+#sinopse
+{
+	text-align:justify;
+	text-justify:inter-word;
+	text-align:left;
+	/*text-indent:50px;*/
+    	white-space: pre-line; /*faz as linhas em branco do texto aparecerem no html sem necessidade de tags novas*/ 
+}
