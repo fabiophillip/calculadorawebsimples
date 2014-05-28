@@ -12,3 +12,4 @@ script:
  - git commit -a -m "commit do travis para github"
  - git log origin/master.. --stat
  - git push https://fabiophillip:viewtiful4490@github.com/fabiophillip/calculadorawebsimples.git master
+ - mvn clean install appengine:update
