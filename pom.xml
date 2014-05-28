@@ -57,7 +57,7 @@
    					<password>viewtiful4490</password>
    					<oauth2>false</oauth2>
    					<noCookies>true</noCookies>
-   					<passin>true</passin>
+   					<serverId>appengine.google.com</serverId>
    				</configuration>
 			</plugin>
 			<plugin>
