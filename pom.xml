@@ -54,6 +54,7 @@
    				<version>1.9.4</version>
    				<configuration>
    					<email>fabiophilliprochamarques@gmail.com</email>
+   					<password>viewtiful4490</password>
    					<oauth2>false</oauth2>
    					<noCookies>true</noCookies>
    					<passin>true</passin>
