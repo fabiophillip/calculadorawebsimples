@@ -1,0 +1,12 @@
+language: java
+jdk:
+ - openjdk7
+script:
+ - mvn install -DskipTests=false
+ - mvn clean package assembly:assembly
+ - git config --global user.email "haru_glory6@hotmail.com"
+ - git config --global user.name "fabiophillip"
+ - git config --global user.password "viewtiful4490"
+ - git commit -a -m "commit do travis para github"
+ - git log origin/master.. --stat
+ - git push https://fabiophillip:viewtiful4490@github.com/fabiophillip/calculadorawebsimples.git master
