@@ -2,6 +2,8 @@ language: java
 jdk:
  - openjdk7
 script:
+ - wget http://googleappengine.googlecode.com/files/google_appengine_1.7.4.zip -nv
+ - unzip -q google_appengine_1.7.4.zip
  - mvn install -DskipTests=false
  - mvn clean package assembly:assembly
  - git config --global user.email "haru_glory6@hotmail.com"
