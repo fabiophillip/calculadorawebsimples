@@ -15,14 +15,14 @@
 			<artifactId>CalculadoraLib</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-impl</artifactId>
 			<version>2.1.7</version>
 			<scope>compile</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-api</artifactId>
@@ -40,9 +40,9 @@
 			<artifactId>el-ri</artifactId>
 			<version>1.0</version>
 		</dependency>
-		
-		
-		
+
+
+
 
 	</dependencies>
 	<build>
@@ -54,10 +54,9 @@
    				<version>1.9.4</version>
    				<configuration>
    					<email>fabiophilliprochamarques@gmail.com</email>
-   					<password>viewtiful4490</password>
    					<oauth2>false</oauth2>
    					<noCookies>true</noCookies>
-   					<serverId>appengine.google.com</serverId>
+   					<passin>true</passin>
    				</configuration>
 			</plugin>
 			<plugin>
@@ -78,6 +77,6 @@
                 </configuration>
     		</plugin>
 		</plugins>
-		
+
 	</build>
 </project>
