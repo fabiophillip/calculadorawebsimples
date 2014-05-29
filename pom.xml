@@ -52,12 +52,6 @@
    				<groupId>com.google.appengine</groupId>
    				<artifactId>appengine-maven-plugin</artifactId>
    				<version>1.9.4</version>
-   				<configuration>
-   					<email>fabiophilliprochamarques@gmail.com</email>
-   					<oauth2>false</oauth2>
-   					<noCookies>true</noCookies>
-   					<passin>true</passin>
-   				</configuration>
 			</plugin>
 			<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
